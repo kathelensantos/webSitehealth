@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#topo{
+    background-color:  cadetblue;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#menu  img{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#menu{
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 70px;
+    opacity: 0.9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Login_Cadastro li{
+    display: inline-block;
+    position: relative;
+    left: 1200px;
+    bottom: 209px;
+    margin-left: 50px;
+    
+    }
+    
+    .Login_Cadastro a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: 'Overpass', sans-serif;
+
+    }
+    
+    .menu_texto li {
+      display:inline-block;
+      position: relative;
+      left:500px;
+      top: 20px;
+      margin-left: 20px;
+      
+    }
+    
+    .menu_texto a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Overpass', sans-serif;
+        font-size: 20px;
+        position: relative;
+        bottom: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .menu_texto:hover{
+        font-weight: bold;
+    }
+    
+    #banner{
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 500px;
+    } 
+    
+    #banner img{
+        width: 100%;
+        height: 500px;
+    }
+    
+    
+    
+    main{
+        background-color:rgb(250, 250, 250);
+        width: 1000px;
+        height: 900px;
+        margin-left: 240px;
+    }   
+    
+    #IMC{
+        background-image: url(img/imc.png);
+        width: 530px;
+        height: 534px;
+        position:relative;
+        top:200px;
+        left: 230px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    h1{
+        text-align: center;
+       position: relative;
+       top:30px;
+       font-size: 30px;
+       color:black;
+       font-family: 'Overpass', sans-serif;
+       background-color: antiquewhite;
+       width: 530px;
+       height: 70px;
+       box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    form{
+        position:relative;
+        top:120px;
+        left:90px;
+    
+    }
+    
+    form label{
+        color: rgb(0, 0, 0);
+        font-family: 'Overpass', sans-serif;
+        font-size: 20px;
+        background-color: antiquewhite;
+        width: 500px;
+        height: 50px;
+        
+    
+    }
+    input {
+        font-size: 25px;
+    }
+
+
+    footer{
+        background-color:  cadetblue;
+        width: 100%;
+        height: 150px;
+    }
